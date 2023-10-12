@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.btn{
+    background-color: blanchedalmond;
+    color: wheat;
+    padding: 13px;
+    margin: 11px;
+    border:none;
+    width: 100%;
+    border-radius: 40px;
+    cursor:pointer;
+    font-size:17px;
+}
+
+.col-24{
+    -ms-flex:50%;
+    flex: 50%;
+}
+.icon-container{
+    margin-bottom: 30px;
+    padding:8px 0;
+    font-size:24px;
+}
+span.Price{
+    float:right;
+    color:black;
+}
+
+
+
+
+</style>
+</head>
+
+<body style="background-image: url('https://img.freepik.com/free-vector/payment-background-design_1223-72.jpg'); background-size: cover;background-repeat: no-repeat; background-position: center;height: 100vh;">
+    <div class="container">
+        <div class="main-content">
+            <p class=""text>Payments</p>
+        </div>
+        <div class="centre-content">
+            <h1 class="Price">___<span>/-</span></h1>
+            <div class="c1">Mode of Payement</div>
+        </div>
+
+        <div class="lc">
+            <button type="button" class="pay-btn">Apply coupon</button>
+        </div>
+        <div class="col-40">
+            <form>
+            <h2>Payments</h2>
+            <label for="fname">Cards Accepted</label>
+            <div class="icon-container">
+                <p class="fa fa-cc-visa" style="color:azure;"></p>
+                <p class="fa fa-cc-amex" style="color:beige;"></p>
+                <p class="fa fa-cc-mastercard" style="color:bisque;"></p>
+                <p class="fa fa-cc-discover" style="color:antiquewhite;"></p>
+
+            </div>
+
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardnumber" placeholder="####-####-####-####">
+            <label for="expmonth">Expire Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholde="october">
+            <div class="row">
+                <div class="col-40">
+                    <label for="cvv"> cvv</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="889">
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+    
+    
+     
+</body>
+</html>
